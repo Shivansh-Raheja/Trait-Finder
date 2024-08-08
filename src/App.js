@@ -13,7 +13,7 @@ const App = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await axios.post('http://shivansh-raheja.42web.io/student_app/add_student.php', new URLSearchParams({
+        const response = await axios.post('http://shivansh-raheja.42web.io/add_student.php', new URLSearchParams({
             name,
             subject1,
             subject2,
